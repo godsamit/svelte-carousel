@@ -5,16 +5,21 @@
   "main": "src/main.js",
   "module": "src/main.js",
   "svelte": "src/main.js",
-  "author": "vadimkorr",
+  "exports": {
+     ".": {
+       "svelte": "./src/main.js"
+     }
+  },
+  "author": "godsamit",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vadimkorr/svelte-carousel.git"
+    "url": "git+https://github.com/godsamit/svelte-carousel.git"
   },
   "bugs": {
-    "url": "https://github.com/vadimkorr/svelte-carousel/issues"
+    "url": "https://github.com/godsamit/svelte-carousel/issues"
   },
-  "homepage": "https://github.com/vadimkorr/svelte-carousel#readme",
+  "homepage": "https://github.com/godsamit/svelte-carousel#readme",
   "keywords": [
     "svelte",
     "carousel",
